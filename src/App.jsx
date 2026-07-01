@@ -1334,10 +1334,9 @@ function Shop() {
     "Detaillierte Montageanleitung",
   ];
 
-  // TODO: Ersetze "#" durch die tatsächlichen Produktlinks (z.B. Amazon-Links)
   const notIncluded = [
-    { text: "12V-Zentralverriegelungsset (mit Stellmotor & Steuergerät)", link: "#LINK-ZENTRALVERRIEGELUNGSSET" },
-    { text: "12V-Schalter", link: "#LINK-SCHALTER" },
+    { text: "12V-Zentralverriegelungsset (mit Stellmotor & Steuergerät)", link: "https://www.amazon.de/dp/B09C89SS3L" },
+    { text: "12V-Schalter", link: "https://www.amazon.de/dp/B0FP96V7N3" },
     { text: "Kabel, Sicherung, elektrische Verbinder", link: null },
     { text: "Korpus-Befestigungsschrauben", link: null },
     { text: "Werkzeug", link: null },
