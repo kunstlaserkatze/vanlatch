@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RailLock – Archiv-Vergleich (Live vs. V1)</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; background: #000; color: #EDE9E3; font-family: system-ui, sans-serif; }
+      .cols { display: flex; height: 100%; }
+      .col { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+      .col + .col { border-left: 2px solid #F07818; }
+      .label {
+        display: flex; align-items: center; justify-content: center; gap: 10px;
+        padding: 10px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase;
+        background: #111; border-bottom: 1px solid rgba(255,255,255,0.1);
+      }
+      .label a { color: #FFB35C; text-decoration: none; font-size: 12px; letter-spacing: 0; text-transform: none; }
+      .label a:hover { text-decoration: underline; }
+      .tag { padding: 2px 10px; border-radius: 999px; font-size: 10px; }
+      .tag.v1 { background: rgba(255,255,255,0.1); }
+      .tag.v2 { background: #F07818; color: #14100B; font-weight: 700; }
+      iframe { flex: 1; width: 100%; border: none; background: #0B0A09; }
+    </style>
+  </head>
+  <body>
+    <div class="cols">
+      <div class="col">
+        <div class="label"><span class="tag v2">LIVE</span> Aktuelle Webseite (V2) <a href="/" target="_blank">in neuem Tab ↗</a></div>
+        <iframe src="/" title="RailLock Live"></iframe>
+      </div>
+      <div class="col">
+        <div class="label"><span class="tag v1">ARCHIV</span> Alte Version (V1) <a href="/v1.html" target="_blank">in neuem Tab ↗</a></div>
+        <iframe src="/v1.html" title="RailLock Version 1 Archiv"></iframe>
+      </div>
+    </div>
+  </body>
+</html>
