@@ -648,7 +648,7 @@ function Produkt() {
     ["Zentrale Schiene", "Eine vertikale Schiene verriegelt mehrere Schubladen gleichzeitig – mechanisch simpel und absolut zuverlässig."],
     ["Halterungen", "Halten die Schiene in Position und fixieren bei Bedarf Querstreben des Korpus. Eine Halterung pro Schublade."],
     ["Nummerierte Segmente", "Die Schienensegmente sind nummeriert – ein falscher Einbau ist praktisch ausgeschlossen."],
-    ["Kleiner Ausschnitt, große Wirkung", "Ein Ausschnitt (ca. 45 × 30 mm) im Schubladenrücken genügt. Mit Schablone und Kreissäge schnell gesetzt – im eingebauten Zustand unsichtbar."],
+    ["Kleiner Ausschnitt, große Wirkung", "Ein Ausschnitt (ca. 45 × 30 mm) im Schubladenrücken genügt. Mit Schablone und Stichsäge oder Kreissäge schnell gesetzt – im eingebauten Zustand unsichtbar."],
     ["Komfort wie im Auto", "Verriegeln und Entriegeln wie mit der Zentralverriegelung deines Autos – ein Schalter statt vieler Handgriffe an jeder einzelnen Schublade."],
   ];
 
