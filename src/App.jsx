@@ -708,7 +708,7 @@ function RailLockSVG({ locked = true }) {
   const dH = 72, bwX = 80, bwT = 6, fwX = 276, wT = 4;
   const cutT = -36, cutB = -5;
   const iL = bwX + bwT, iR = fwX, iT = cutT + wT, iB = dH / 2 - wT;
-  const armY = -26, armH = 10, armXS = 68, armXE = iL + 18;
+  const armY = -26, armH = 10, armXS = 68, armXE = iL + 10;
   const tipXS = armXE - 10, tipXE = armXE, tipLen = 18;
 
   return (
