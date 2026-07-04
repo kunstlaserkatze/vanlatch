@@ -661,7 +661,7 @@ function Produkt() {
               <img
                 src="/images/Queransicht3.jpg"
                 alt="RailLock im Einbau – Haken und Halterung der Verriegelungsschiene greifen durch den Ausschnitt im Schubladenrücken"
-                style={{ height: 540, objectFit: "cover", objectPosition: "center 30%", width: "100%" }}
+                style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>
           </div>
@@ -709,7 +709,7 @@ function RailLockSVG({ locked = true }) {
   const cutT = -36, cutB = -5;
   const iL = bwX + bwT, iR = fwX, iT = cutT + wT, iB = dH / 2 - wT;
   const armY = -26, armH = 10, armXS = 68, armXE = iL + 18;
-  const tipXS = armXE - 10, tipXE = armXE, tipLen = 9;
+  const tipXS = armXE - 10, tipXE = armXE, tipLen = 18;
 
   return (
     <svg viewBox="0 0 320 460" xmlns="http://www.w3.org/2000/svg"
@@ -932,7 +932,7 @@ function Features() {
     { icon: "tool", title: "DIY-freundlich", desc: "Nachrüstung ohne Fachbetrieb. Schablone, Anleitung und Montageset inklusive." },
     { icon: "repeat", title: "Wartungsarm", desc: "Mechanisch simpel. Kein Service, keine Ersatzteile, kein Verschleißdrama." },
     { icon: "print", title: "3D-gedruckt & offen", desc: "Fertiges Kit oder STL-Dateien zum Selbstdrucken – du entscheidest." },
-    { icon: "shield", title: "Vibrationsfest", desc: "Speziell für Dauervibration im Fahrbetrieb konstruiert – mittige U-Führung inklusive." },
+    { icon: "shield", title: "Vibrationsfest", desc: "Speziell für Dauervibration im Fahrbetrieb konstruiert." },
     { icon: "thermo", title: "−30 °C bis +75 °C", desc: "PETG bleibt formstabil – vom Wintertrip bis zum Hochsommer auf dem Campingplatz." },
     { icon: "box", title: "Unsichtbar verbaut", desc: "Sitzt komplett hinter den Schubladen. Von außen ist nichts zu sehen." },
     { icon: "feather", title: "Leichtgewicht", desc: "3D-Druck statt Stahlkonstruktion – minimales Zusatzgewicht im Ausbau." },
@@ -1272,10 +1272,6 @@ function Installation() {
                 </div>
               </div>
             ))}
-
-            <div className="media-frame" style={{ marginTop: 8 }}>
-              <img src="/images/einbau_seitenansicht.jpg" alt="RailLock im eingebauten Zustand – Seitenansicht" style={{ width: "100%", height: "auto" }} />
-            </div>
           </div>
         </div>
       </div>
@@ -1289,6 +1285,7 @@ function Installation() {
 function Galerie() {
   const photos = [
     { src: "/images/schubladen_vorne.jpg", caption: "Eingebaut – vier Schubladen, von außen sauber und unsichtbar gesichert" },
+    { src: "/images/einbau_seitenansicht.jpg", caption: "RailLock im eingebauten Zustand – Seitenansicht" },
     { src: "/images/ausschnitt_innen.jpg", caption: "Von innen – der Haken greift präzise durch den Ausschnitt im Schubladenrücken" },
     { src: "/images/schalter.jpg", caption: "Bedienung – ein Knopfdruck sichert alle Schubladen gleichzeitig" },
     { src: "/images/gallery_haken_detail.jpg", caption: "Hakendetail – der Haken blockiert die Schublade von innen" },
